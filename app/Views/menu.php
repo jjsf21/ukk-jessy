@@ -57,7 +57,7 @@
 			    </li>
 
 
-			    <!-- 	<li>
+			    	<li>
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class="bx bx-file"></i>
 						</div>
@@ -66,7 +66,7 @@
 					<ul>
 					<li> <a href=<?= base_url('/home/laporan_penjualan')?>><i class="bx bx-right-arrow-alt"></i>laporan penjualan</a>
 					</ul>
-				</li> -->
+				</li>
 
 			    <!--end navigation-->
 			    </div>
