@@ -1,0 +1,867 @@
+CRITICAL - 2024-02-29 01:40:22 --> ArgumentCountError: Too few arguments to function App\Models\M_model::ultra(), 3 passed in C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php on line 238 and exactly 7 expected
+in APPPATH\Models\M_model.php on line 264.
+ 1 APPPATH\Controllers\Home.php(238): App\Models\M_model->ultra('penjualan', 'pelanggan', 'penjualan.id_pelanggan=pelanggan.id_pelanggan')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambah_penjualan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 01:40:54 --> ArgumentCountError: Too few arguments to function App\Models\M_model::ultra(), 3 passed in C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php on line 238 and exactly 7 expected
+in APPPATH\Models\M_model.php on line 264.
+ 1 APPPATH\Controllers\Home.php(238): App\Models\M_model->ultra('penjualan', 'pelanggan', 'penjualan.id_pelanggan=pelanggan.id_pelanggan')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambah_penjualan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 01:41:32 --> ParseError: Unmatched '}'
+in APPPATH\Views\v_tambah_penjualan.php on line 22.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_tambah_penjualan', [], true)
+ 3 APPPATH\Controllers\Home.php(253): view('v_tambah_penjualan')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 01:44:53 --> ErrorException: Undefined variable $on2
+in APPPATH\Controllers\Home.php on line 288.
+ 1 APPPATH\Controllers\Home.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Controllers\\Home.php', 288)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 01:47:35 --> ErrorException: Undefined variable $on2
+in APPPATH\Controllers\Home.php on line 288.
+ 1 APPPATH\Controllers\Home.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Controllers\\Home.php', 288)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 01:48:19 --> ErrorException: Attempt to read property "id_penjualan" on null
+in APPPATH\Views\v_edit_penjualan.php on line 8.
+ 1 APPPATH\Views\v_edit_penjualan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_penjualan" on null', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_edit_penjualan.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_edit_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_edit_penjualan', [], true)
+ 5 APPPATH\Controllers\Home.php(298): view('v_edit_penjualan')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 01:58:00 --> ErrorException: Undefined property: stdClass::$id_produk
+in APPPATH\Views\v_tambah_detail_penjualan.php on line 38.
+ 1 APPPATH\Views\v_tambah_detail_penjualan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_produk', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_tambah_detail_penjualan.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_tambah_detail_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_tambah_detail_penjualan', [], true)
+ 5 APPPATH\Controllers\Home.php(380): view('v_tambah_detail_penjualan')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambah_detail_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:06:55 --> ErrorException: Undefined variable $table3
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table3', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 02:07:30 --> mysqli_sql_exception: Unknown column 'produk' in 'from clause' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(216): CodeIgniter\Database\BaseBuilder->getWhere('detail_penjuala...')
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjuala...', 'penjualan', 'produk', 'detail_penjuala...', 'detail_penjuala...', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 02:07:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'from clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`', [], false)
+ 2 APPPATH\Models\M_model.php(216): CodeIgniter\Database\BaseBuilder->getWhere('detail_penjualan.id_penjualan=penjualan.id_penjualan')
+ 3 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:07:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'produk' in 'from clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`', [], false)
+ 4 APPPATH\Models\M_model.php(216): CodeIgniter\Database\BaseBuilder->getWhere('detail_penjualan.id_penjualan=penjualan.id_penjualan')
+ 5 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:07:31 --> [Caused by] mysqli_sql_exception: Unknown column 'produk' in 'from clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` USING (`produk`)
+WHERE `detail_penjualan`.`id_penjualan` = `penjualan`.`id_penjualan`', [], false)
+ 5 APPPATH\Models\M_model.php(216): CodeIgniter\Database\BaseBuilder->getWhere('detail_penjualan.id_penjualan=penjualan.id_penjualan')
+ 6 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:05 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:37 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:38 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:38 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:10:39 --> ErrorException: Undefined variable $on2
+in APPPATH\Models\M_model.php on line 216.
+ 1 APPPATH\Models\M_model.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $on2', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Models\\M_model.php', 216)
+ 2 APPPATH\Controllers\Home.php(418): App\Models\M_model->edit_resep('detail_penjualan', 'penjualan', 'produk', 'detail_penjualan.id_penjualan=penjualan.id_penjualan', 'detail_penjualan.id_produk=produk.id_produk', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 02:20:34 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(327): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(737): App\Models\M_model->filter('penjualan', '2024-02-22', '2024-02-29')
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->cari_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 02:20:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tanggal' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= :tanggal:
+AND `tanggal` <= :tanggal.1:', [...], false)
+ 2 APPPATH\Models\M_model.php(327): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(737): App\Models\M_model->filter('penjualan', '2024-02-22', '2024-02-29')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->cari_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:20:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= \'2024-02-22\'
+AND `tanggal` <= \'2024-02-29\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= \'2024-02-22\'
+AND `tanggal` <= \'2024-02-29\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= :tanggal:
+AND `tanggal` <= :tanggal.1:', [...], false)
+ 4 APPPATH\Models\M_model.php(327): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(737): App\Models\M_model->filter('penjualan', '2024-02-22', '2024-02-29')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->cari_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:20:34 --> [Caused by] mysqli_sql_exception: Unknown column 'tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= \'2024-02-22\'
+AND `tanggal` <= \'2024-02-29\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= \'2024-02-22\'
+AND `tanggal` <= \'2024-02-29\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= \'2024-02-22\'
+AND `tanggal` <= \'2024-02-29\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penjualan`
+WHERE `tanggal` >= :tanggal:
+AND `tanggal` <= :tanggal.1:', [...], false)
+ 5 APPPATH\Models\M_model.php(327): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(737): App\Models\M_model->filter('penjualan', '2024-02-22', '2024-02-29')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->cari_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:21:03 --> ErrorException: Undefined variable $foto
+in APPPATH\Views\c_p.php on line 3.
+ 1 APPPATH\Views\c_p.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $foto', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\c_p.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\c_p.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('c_p', [], true)
+ 5 APPPATH\Controllers\Home.php(744): view('c_p', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->cari_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:21:58 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:24:08 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:24:31 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:24:51 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\Home.php on line 786.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->excel_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:25:53 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:27:28 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:27:31 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:29:10 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:42:42 --> ArgumentCountError: Too few arguments to function App\Models\M_model::edit_resep(), 4 passed in C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php on line 288 and exactly 6 expected
+in APPPATH\Models\M_model.php on line 214.
+ 1 APPPATH\Controllers\Home.php(288): App\Models\M_model->edit_resep('penjualan', 'pelanggan', 'penjualan.id_pelanggan=pelanggan.id_pelanggan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:42:47 --> ArgumentCountError: Too few arguments to function App\Models\M_model::edit_resep(), 4 passed in C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php on line 288 and exactly 6 expected
+in APPPATH\Models\M_model.php on line 214.
+ 1 APPPATH\Controllers\Home.php(288): App\Models\M_model->edit_resep('penjualan', 'pelanggan', 'penjualan.id_pelanggan=pelanggan.id_pelanggan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:43:44 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:43:46 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:43:48 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:43:49 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:43:50 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:43:54 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:43:56 --> ErrorException: Cannot redeclare App\Models\M_model::edit_resep()
+in APPPATH\Models\M_model.php on line 219.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-29 02:45:47 --> ArgumentCountError: Too few arguments to function App\Models\M_model::edit_resep(), 4 passed in C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php on line 288 and exactly 6 expected
+in APPPATH\Models\M_model.php on line 214.
+ 1 APPPATH\Controllers\Home.php(288): App\Models\M_model->edit_resep('penjualan', 'pelanggan', 'penjualan.id_pelanggan=pelanggan.id_pelanggan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:50:07 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:50:29 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\Home.php on line 786.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->excel_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 02:56:36 --> Error: Call to undefined function App\Controllers\new\Dompdf\Dompdf()
+in APPPATH\Controllers\Home.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 21:16:45 --> mysqli_sql_exception: Unknown column 'total_kembali' in 'where clause' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(206): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(283): App\Models\M_model->getRow('penjualan', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 21:16:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_kembali' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = :id_pelanggan:
+AND `tanggal_penjualan` = :tanggal_penjualan:
+AND `total_harga` = :total_harga:
+AND `total_bayar` = :total_bayar:
+AND `total_kembali` = :total_kembali:', [...], false)
+ 2 APPPATH\Models\M_model.php(206): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 3 APPPATH\Controllers\Home.php(283): App\Models\M_model->getRow('penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:16:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_kembali' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = \'2\'
+AND `tanggal_penjualan` = \'2024-03-01\'
+AND `total_harga` = \'30\'
+AND `total_bayar` = \'40\'
+AND `total_kembali` = \'10.00\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = \'2\'
+AND `tanggal_penjualan` = \'2024-03-01\'
+AND `total_harga` = \'30\'
+AND `total_bayar` = \'40\'
+AND `total_kembali` = \'10.00\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = :id_pelanggan:
+AND `tanggal_penjualan` = :tanggal_penjualan:
+AND `total_harga` = :total_harga:
+AND `total_bayar` = :total_bayar:
+AND `total_kembali` = :total_kembali:', [...], false)
+ 4 APPPATH\Models\M_model.php(206): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 5 APPPATH\Controllers\Home.php(283): App\Models\M_model->getRow('penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:16:45 --> [Caused by] mysqli_sql_exception: Unknown column 'total_kembali' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = \'2\'
+AND `tanggal_penjualan` = \'2024-03-01\'
+AND `total_harga` = \'30\'
+AND `total_bayar` = \'40\'
+AND `total_kembali` = \'10.00\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = \'2\'
+AND `tanggal_penjualan` = \'2024-03-01\'
+AND `total_harga` = \'30\'
+AND `total_bayar` = \'40\'
+AND `total_kembali` = \'10.00\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = \'2\'
+AND `tanggal_penjualan` = \'2024-03-01\'
+AND `total_harga` = \'30\'
+AND `total_bayar` = \'40\'
+AND `total_kembali` = \'10.00\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penjualan`
+WHERE `id_pelanggan` = :id_pelanggan:
+AND `tanggal_penjualan` = :tanggal_penjualan:
+AND `total_harga` = :total_harga:
+AND `total_bayar` = :total_bayar:
+AND `total_kembali` = :total_kembali:', [...], false)
+ 5 APPPATH\Models\M_model.php(206): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Controllers\Home.php(283): App\Models\M_model->getRow('penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 21:17:27 --> mysqli_sql_exception: Unknown column 'total_kembali' in 'field list' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(283): App\Models\M_model->simpan('penjualan', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 21:17:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_kembali' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :total_kembali:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(283): App\Models\M_model->simpan('penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:17:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_kembali' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (\'2\', \'2024-02-01\', \'30\', \'40\', \'10.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (\'2\', \'2024-02-01\', \'30\', \'40\', \'10.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :total_kembali:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(283): App\Models\M_model->simpan('penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:17:27 --> [Caused by] mysqli_sql_exception: Unknown column 'total_kembali' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (\'2\', \'2024-02-01\', \'30\', \'40\', \'10.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (\'2\', \'2024-02-01\', \'30\', \'40\', \'10.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (\'2\', \'2024-02-01\', \'30\', \'40\', \'10.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `total_kembali`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :total_kembali:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(283): App\Models\M_model->simpan('penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 21:21:20 --> mysqli_sql_exception: Unknown column 'id_pelanggan' in 'field list' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjuala...', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 21:21:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:21:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2023-03-01\', \'30\', \'50\', \'20.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2023-03-01\', \'30\', \'50\', \'20.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:21:20 --> [Caused by] mysqli_sql_exception: Unknown column 'id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2023-03-01\', \'30\', \'50\', \'20.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2023-03-01\', \'30\', \'50\', \'20.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2023-03-01\', \'30\', \'50\', \'20.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 21:23:28 --> mysqli_sql_exception: Unknown column 'id_pelanggan' in 'field list' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjuala...', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 21:23:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:23:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'\', \'0\', \'\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'\', \'0\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:23:28 --> [Caused by] mysqli_sql_exception: Unknown column 'id_pelanggan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'\', \'0\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'\', \'0\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'\', \'0\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(296): App\Models\M_model->simpan('detail_penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:33:13 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::detail_penjualan(), 0 passed in C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 360.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 21:34:11 --> mysqli_sql_exception: Column 'id_penjualan' in where clause is ambiguous in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 21:34:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_penjualan' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 2 APPPATH\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:34:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_penjualan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 4 APPPATH\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:34:11 --> [Caused by] mysqli_sql_exception: Column 'id_penjualan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 5 APPPATH\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-29 21:34:26 --> mysqli_sql_exception: Column 'id_penjualan' in where clause is ambiguous in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-29 21:34:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_penjualan' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 2 APPPATH\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:34:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_penjualan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 4 APPPATH\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-29 21:34:26 --> [Caused by] mysqli_sql_exception: Column 'id_penjualan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detail_penjualan`
+JOIN `penjualan` ON `penjualan`.`id_penjualan`=`detail_penjualan`.`id_penjualan`
+JOIN `produk` ON `produk`.`id_produk`=`detail_penjualan`.`id_produk`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 5 APPPATH\Models\M_model.php(342): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(368): App\Models\M_model->detail_penjualan('9')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail_penjualan('9')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')

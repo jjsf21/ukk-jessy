@@ -1,0 +1,98 @@
+ERROR - 2024-03-01 00:20:39 --> mysqli_sql_exception: Unknown column 'total_bayar' in 'field list' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-03-01 00:20:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_bayar' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-03-01 00:20:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_bayar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.000\', \'180.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.000\', \'180.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-03-01 00:20:39 --> [Caused by] mysqli_sql_exception: Unknown column 'total_bayar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.000\', \'180.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.000\', \'180.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.000\', \'180.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-03-01 00:21:03 --> mysqli_sql_exception: Unknown column 'total_bayar' in 'field list' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-03-01 00:21:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_bayar' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-03-01 00:21:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_bayar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.00\', \'180.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.00\', \'180.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-03-01 00:21:03 --> [Caused by] mysqli_sql_exception: Unknown column 'total_bayar' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.00\', \'180.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.00\', \'180.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (\'3\', \'2024-03-02\', \'20\', \'200.00\', \'180.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`, `total_bayar`, `kembalian`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:, :total_bayar:, :kembalian:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(284): App\Models\M_model->simpan('penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')

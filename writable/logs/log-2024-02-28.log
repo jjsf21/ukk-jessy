@@ -1,0 +1,307 @@
+CRITICAL - 2024-02-28 02:55:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 02:56:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 02:56:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 02:56:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 02:58:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 02:58:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 03:28:00 --> ErrorException: Undefined property: stdClass::$id_anak
+in APPPATH\Views\v_edit_pelanggan.php on line 8.
+ 1 APPPATH\Views\v_edit_pelanggan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_anak', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_edit_pelanggan.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_edit_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_edit_pelanggan', [], true)
+ 5 APPPATH\Controllers\Home.php(176): view('v_edit_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_pelanggan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-28 03:43:59 --> mysqli_sql_exception: Column 'id_pelanggan' cannot be null in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-28 03:43:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_pelanggan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 03:43:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_pelanggan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 03:43:59 --> [Caused by] mysqli_sql_exception: Column 'id_pelanggan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-28 03:47:19 --> mysqli_sql_exception: Column 'id_pelanggan' cannot be null in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-28 03:47:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_pelanggan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 03:47:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_pelanggan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 03:47:19 --> [Caused by] mysqli_sql_exception: Column 'id_pelanggan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (NULL, \'2024-03-01\', \'1.000.000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_pelanggan`, `tanggal_penjualan`, `total_harga`) VALUES (:id_pelanggan:, :tanggal_penjualan:, :total_harga:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(282): App\Models\M_model->simpan('penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 03:48:16 --> ErrorException: Cannot redeclare App\Controllers\Home::aksi_edit_pelanggan()
+in APPPATH\Controllers\Home.php on line 269.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-28 03:48:31 --> ErrorException: Cannot redeclare App\Controllers\Home::hapus_pelanggan()
+in APPPATH\Controllers\Home.php on line 291.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-28 03:51:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_edit_penjualan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_edit_penjualan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_edit_penjualan', [], true)
+ 3 APPPATH\Controllers\Home.php(265): view('v_edit_penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_penjualan('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 04:04:05 --> ErrorException: Cannot redeclare App\Controllers\Home::edit_penjualan()
+in APPPATH\Controllers\Home.php on line 341.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-28 04:08:02 --> ErrorException: Undefined property: stdClass::$id_detail_penjualan
+in APPPATH\Views\v_edit_detail_penjualan.php on line 8.
+ 1 APPPATH\Views\v_edit_detail_penjualan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_detail_penjualan', 'C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_edit_detail_penjualan.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ukkkasir\\app\\Views\\v_edit_detail_penjualan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_edit_detail_penjualan', [], true)
+ 5 APPPATH\Controllers\Home.php(352): view('v_edit_detail_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit_detail_penjualan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-28 04:18:45 --> mysqli_sql_exception: Unknown column 'id_penjualan' in 'where clause' in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `produk`...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `produk`...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `produk`...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `produk`...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(231): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(463): App\Models\M_model->edit('produk', Array, Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_edit_produk()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-28 04:18:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_penjualan' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `produk` SET `nama_produk` = :nama_produk:, `harga` = :harga:, `stok` = :stok:
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 2 APPPATH\Models\M_model.php(231): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Home.php(463): App\Models\M_model->edit('produk', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_edit_produk()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 04:18:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_penjualan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `produk` SET `nama_produk` = \'indomie\', `harga` = \'20.00\', `stok` = \'1\'
+WHERE `id_penjualan` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `produk` SET `nama_produk` = \'indomie\', `harga` = \'20.00\', `stok` = \'1\'
+WHERE `id_penjualan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `produk` SET `nama_produk` = :nama_produk:, `harga` = :harga:, `stok` = :stok:
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 4 APPPATH\Models\M_model.php(231): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 5 APPPATH\Controllers\Home.php(463): App\Models\M_model->edit('produk', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_edit_produk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 04:18:45 --> [Caused by] mysqli_sql_exception: Unknown column 'id_penjualan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `produk` SET `nama_produk` = \'indomie\', `harga` = \'20.00\', `stok` = \'1\'
+WHERE `id_penjualan` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `produk` SET `nama_produk` = \'indomie\', `harga` = \'20.00\', `stok` = \'1\'
+WHERE `id_penjualan` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `produk` SET `nama_produk` = \'indomie\', `harga` = \'20.00\', `stok` = \'1\'
+WHERE `id_penjualan` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2469): CodeIgniter\Database\BaseConnection->query('UPDATE `produk` SET `nama_produk` = :nama_produk:, `harga` = :harga:, `stok` = :stok:
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 5 APPPATH\Models\M_model.php(231): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Home.php(463): App\Models\M_model->edit('produk', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_edit_produk()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+ERROR - 2024-02-28 06:51:22 --> mysqli_sql_exception: Column 'id_penjualan' cannot be null in C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ukkkasir\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ukkkasir\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ukkkasir\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ukkkasir\app\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ukkkasir\app\Controllers\Home.php(546): App\Models\M_model->simpan('detail_penjuala...', Array)
+#6 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_detail_penjualan()
+#7 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ukkkasir\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ukkkasir\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ukkkasir\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-28 06:51:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_penjualan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (:id_penjualan:, :id_produk:, :jumlah_produk:, :subtotal:)', [...], false)
+ 2 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(546): App\Models\M_model->simpan('detail_penjualan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_detail_penjualan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 06:51:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_penjualan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (NULL, NULL, \'2\', \'20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (NULL, NULL, \'2\', \'20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (:id_penjualan:, :id_produk:, :jumlah_produk:, :subtotal:)', [...], false)
+ 4 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(546): App\Models\M_model->simpan('detail_penjualan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_detail_penjualan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
+CRITICAL - 2024-02-28 06:51:22 --> [Caused by] mysqli_sql_exception: Column 'id_penjualan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (NULL, NULL, \'2\', \'20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (NULL, NULL, \'2\', \'20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (NULL, NULL, \'2\', \'20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detail_penjualan` (`id_penjualan`, `id_produk`, `jumlah_produk`, `subtotal`) VALUES (:id_penjualan:, :id_produk:, :jumlah_produk:, :subtotal:)', [...], false)
+ 5 APPPATH\Models\M_model.php(196): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(546): App\Models\M_model->simpan('detail_penjualan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->aksi_tambah_detail_penjualan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ukkkasir\\public\\index.php')
